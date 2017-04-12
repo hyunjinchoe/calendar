@@ -16,7 +16,7 @@
 		- Home Slider
 	- Page Section
 		- About Us
-		- Responsive Mobile Ready Section
+		- App Section
 		- Our StartUp
 		- Team Section
 		- Technical Skills
@@ -228,8 +228,8 @@ a, a:hover, a:focus, .btn:focus{
 .about-content-box:hover i, .about-content-box i,
 .about-content-box:hover h3, .about-content-box h3,
 .about-content-box:hover p, .about-content-box p,
-/* Responsive section */
-.responsive-section:hover .btn, .responsive-section .btn
+/* App section */
+.app-section:hover .btn, .app-section .btn
 /* Fun Fact Section */
 .fact-counter-box:hover, .fact-counter-box,
 /* Clients */
@@ -428,39 +428,39 @@ a, a:hover, a:focus, .btn:focus{
 	font-size:13px;
 }
 
-/* --------- Responsive Mobile Ready Section Begins --------------- */
-.responsive-section{
+/* --------- App Section Begins --------------- */
+.app-section{
 	position:relative;
 	background-color:#fafafa;
 }
-.responsive-section img{
+.app-section img{
 	margin:0 auto;
 	position:absolute;
 	width:100%;
 	max-width: 375px;
 }
-.responsive-section h3{
+.app-section h3{
     font-size: 45px;
     font-weight: 400;
 	margin:0 0 20px;
 }
-.responsive-section p{
+.app-section p{
     font-weight: 300;
     text-align: left;
 	margin:0 0 50px;
 }
-.responsive-features span{
+.app-features span{
 	font-size: 24px;
 	margin-right: 10px;
 }
-.responsive-features h4{
+.app-features h4{
 	font-size: 18px;
 	display: inline-block;
 	font-weight: 700;
 	margin:0 0 15px;
 	text-transform:uppercase;
 }
-.responsive-features p{
+.app-features p{
 	margin-bottom: 0px;
 }
 
