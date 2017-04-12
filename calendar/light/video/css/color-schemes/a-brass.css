@@ -1,0 +1,64 @@
+/* Color */
+.color-switch,
+.responsive-features span,
+.time-line-content h5,
+.video-icon .icon-play,
+.video-icon h2,
+.services-section .service-box:hover i,
+#topnav .nav li a:hover,
+#topnav .nav li.active a,
+#topnav .nav li a:focus,
+.text-slider p.home-icons a:hover,
+#blog .blog-post .post-details > li i,
+.tweet .username a,
+.tweet .tweet_time a,
+.tweet .tweet_text a{
+    color: #cd9575;
+}
+
+/* Background Color */
+.col-color-bg,
+#testimonials-slider .owl-page.active,
+.contact-deatail-content:hover i,
+.startup-section:before,
+.about-content-box:hover,
+.team-block .col-sm-3:hover .team-member-details,
+#blog .blog-post a.title,
+.icon-twitter i,
+#twitter .owl-theme .owl-controls .owl-page.active span,
+.review-section{
+    background-color: #cd9575;
+}
+
+/* Border Color */
+.sticky-navigation,
+.video-icon .icon-play,
+.author-image:after,
+.contact-section .form-control:focus,
+.contact-deatail-content:hover i,
+#blog .blog-post a.title{
+    border-color:#cd9575;
+}
+
+/* RGB */
+.effect-oscar:hover .img-overlay:after,
+.tech-skills-section:after{
+	background: rgba(230, 126, 34, 0.9);
+}
+
+/* Gradient */
+.curl-top-right:before{
+	background: linear-gradient(225deg, #FFFFFF 48%, #cd9575 50%, #cd9575 56%, #cd9575 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);	
+	background: -ms-linear-gradient(225deg, #FFFFFF 48%, #cd9575 50%, #cd9575 56%, #cd9575 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -webkit-linear-gradient(225deg, #FFFFFF 48%, #cd9575 50%, #cd9575 56%, #cd9575 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -o-linear-gradient(225deg, #FFFFFF 48%, #cd9575 50%, #cd9575 56%, #cd9575 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -moz-linear-gradient(225deg, #FFFFFF 48%, #cd9575 50%, #cd9575 56%, #cd9575 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);	
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#000', endColorstr='#999');/*For IE7-8-9*/ 
+}
+.curl-bottom-left:before{
+	background: linear-gradient(225deg, #cd9575 48%, #FFFFFF 50%, #FFFFFF 56%, #FFFFFF 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -webkit-linear-gradient(225deg, #cd9575 48%, #FFFFFF 50%, #FFFFFF 56%, #FFFFFF 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -o-linear-gradient(225deg, #cd9575 48%, #FFFFFF 50%, #FFFFFF 56%, #FFFFFF 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -ms-linear-gradient(225deg, #cd9575 48%, #FFFFFF 50%, #FFFFFF 56%, #FFFFFF 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -moz-linear-gradient(225deg, #cd9575 48%, #FFFFFF 50%, #FFFFFF 56%, #FFFFFF 80%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}

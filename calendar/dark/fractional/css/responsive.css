@@ -1,0 +1,211 @@
+/* ================================= Responsive CSS ================================= */
+
+/* ---------- MAX 1199px ---------- */
+@media only screen and (max-width:1199px) {
+	/* Testimonials */
+	.testimonials-content i.icon-left-quote, .testimonials-content i.icon-right-quote{
+		position:relative;
+		left:0;
+	}
+	.works-section .testimonials-content i.icon-right-quote{
+		text-align:right;
+		display:block;
+		line-height:0;
+	}
+	/* Start Up */
+	.tech-skills-content h3 {
+    	font-size: 25px;
+	}
+
+/* ---------- MAX 991PX ---------- */
+@media only screen and (max-width:991px) {
+	/* Nav Bar */
+	.top-container .navbar-right{
+		float:none !important;
+	}
+	.site-logo a{
+		text-align:center;
+		display:block;
+	}
+	/* Global */
+	.title-desc p{
+		padding:0px 0% 50px;
+	}
+	/* Services */
+	.services-section .box-center{
+		border-right:1px solid #555555;
+		border-left:1px solid #555555;
+	}
+	.services-section .no-padding{
+		padding:0px 15px;
+	}
+	.services-section .service-top .service-box{
+		border-bottom:1px solid #555555;
+	}
+	.services-section .service-box{
+		margin-bottom:20px;
+	}
+	/* Background Color With Images Sections */
+	.startup-section:before, .tech-skills-section:after{
+    	background: transparent !important;
+	}
+	.startup-section:after{
+		width:100%;
+	}
+	.startup-section, .tech-skills-section{
+		padding: 0px;
+	}
+	.col-color-bg, .col-img-bg{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.tech-skills-section .col-img-bg{
+		padding-top: 0px;
+		padding-bottom:0px;
+	}
+	.tech-skills-content h3{
+		font-size:40px;
+	}
+	.tech-skills-content{
+		padding:0px 15px;
+	}
+	.tech-skills-content h3 {
+    	font-size: 45px;
+	}
+	/* About Us Section */
+	.about-content-box{
+		margin-bottom:20px;
+	}
+	/* Start Up Section */
+	.strat-up-content h3{
+		font-size:40px;
+	}
+	.strat-up-content{
+		padding-right: 0px;
+	}
+	/* video section  */
+	.video-section {
+		min-height: 300px;
+		height: 100%;
+		position: relative;
+	}
+	.video-section .video-icon{
+		left: 50%;
+	}
+	/* Testimonials */
+	.testimonials-content{
+		padding:0 0 4%;
+	}
+	/* Responsive Section */
+	.responsive-section img{
+		position:relative;
+	}
+	/* Team */
+	.team-section img{
+		margin:0 auto;
+	}
+	/* Works */
+	.works-section .nav > li{
+		padding: 10px;
+	}
+}
+
+/* ---------- MAX 767PX ---------- */
+@media only screen and (max-width:767px) {
+	 /* Nav Bar */
+	.site-logo a{
+		text-align:left;
+	}
+	.top-container .navbar{
+		min-height:0;
+	}
+	/* Team Section */
+	.team-section img{
+		margin:0 auto;
+	}
+	.team-member-details{
+		margin:0px auto 30px auto;
+		display:block;
+	}
+	/* Fun Fact Section */
+	.fact-counter-box{
+		margin:10px auto;
+	}
+	/* Clients Section */
+	.client-slider-item{
+		padding:15px 0px;
+	}
+	/* Work Section  */
+	.works-section .nav-tabs > li > a {
+		padding: 6px 5px;
+	}
+	/* Our Startup Section */
+	.startup-timeline-section{
+		padding: 50px 0px;
+	}
+	.startup-timeline{
+		margin-bottom: 40px;
+	}
+	.startup-timeline-section:before{
+		content: none;
+	}
+	.year-round{
+		margin:0 auto;
+	}
+	.time-line-content{
+		text-align:center;
+		padding-left: 0px;
+	}
+}
+
+/* ---------- MAX 640PX ---------- */
+@media only screen and (max-width:640px) {
+	/* Gloabal */
+	.title-desc h2{
+		font-size:36px;
+	}
+	/* Technical Skills Section */
+	.progress-bar-section h4 {
+		margin: 0 0 40px;
+	}
+	/* Review Section */
+	.review-section h2 {
+		font-size: 50px;
+	}
+	/* Works */
+	.works-section .nav > li{
+		padding: 6px;
+		font-size: 14px;
+	}
+}	
+
+/* ---------- MAX 480PX ---------- */
+@media only screen and (max-width:480px) {
+	/* Home Slider */
+	.text-slider li{ 
+		font-size: 26px; 
+	}
+	.home-section h2{ 
+		font-size: 40px; 
+	}
+	 /* Responsive Section */
+	.strat-up-content h3{ 
+		font-size:30px;
+	}		
+	.fun-fact-section .col-xs-6{
+		width:100%;
+	}
+	/* Recent Work Section */
+	.works-section .grid figure {
+		width: 100%;
+	} 
+	.works-section .nav > li{
+		font-size: 12px
+	}
+	.works-section .nav{
+		margin: 0 auto 20px;
+	}
+	.works-section .nav > li{
+		margin: 0 auto 10px;
+	}	
+}

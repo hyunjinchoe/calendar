@@ -1,0 +1,89 @@
+#theme-panel {
+    position: fixed;
+    width: 184px;
+    height: auto;
+    top: 150px;
+    min-height: 192px;
+    text-align: left;
+    background: white;
+    border: 1px solid #CCC;
+    z-index: 999;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.close-theme-panel {
+    left: -184px;
+}
+.open-theme-panel {
+    left: -1px;
+}
+#theme-panel .segment {
+    width: 100%;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 15px;
+}
+#theme-panel .segment h4{
+	font-size:15px;
+	font-weight:700;
+	letter-spacing:0px;
+	color:#000000;
+	text-align:center;
+}
+#theme-panel a.panel-button {
+    position: absolute;
+    width: 50px;
+    height: 49px;
+    background: white;
+    color: #000000;
+    right: -51px;
+    top: -1px;
+    text-align: center;
+    font-size: 23px;
+    line-height: 47px;
+    cursor: pointer;
+    border: 1px solid #CCC;
+	border-left:hidden;
+}
+#theme-panel h3 {
+    margin: 3px auto 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#theme-panel .segment a.switcher {
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+    margin: 2px 0 0 2px;
+    width: 45px;
+}
+.yellow-bg{
+	background:#ffb647;
+}
+.blue-bg {
+    background: #3498db;
+}
+.pink-bg {
+    background: #f77fbe;
+}
+.green-bg {
+    background: #20b2aa;
+}
+.gray-bg {
+    background: #95a5a6;
+}
+.a-brass-bg {
+    background: #cd9575;
+}
+.purple-bg {
+    background: #9b59b6;
+}
+.red-bg {
+    background: #e74c3c;
+}
+.s-blue-bg {
+    background: #1ed2ff;
+}
+.a-green-bg {
+    background: #a4c639 ;
+}
