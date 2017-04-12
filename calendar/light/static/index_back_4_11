@@ -580,6 +580,74 @@
 <!-- Review Section Ends -->		
 	
 <!-- Services Section Begins -->	
+<section id="services" class="section services-section">
+	<div class="container">
+		<!-- Title And Description -->
+		<div class="row title-desc animated" data-animation="fadeInUp" data-animation-delay="300">
+			<div class="col-md-12">
+				<h2>Our Services</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<span class="color-switch"> Vestibulum nec odio ipsum. </span>Suspendisse cursus malesuada facilisis.
+				Nunc consectetur odio sed dolor tincidunt porttitor.</p>
+			</div>	
+		</div><!-- Title And Description -->
+	
+		<!-- Service Row 1 Begins -->
+		<div class="row service-top animated" data-animation="fadeInUp" data-animation-delay="400">
+			<!-- Box 1 -->
+			<div class="col-md-4 no-padding">
+				<div class="service-box">
+					<i class="icon-light-bulb2"></i>
+					<h3>Creative & Clean Designs</h3>
+					<p>Donec feugiat posuere massa, in dignissim diam facilisis at. Mauris vitae dapibus justo, nec dictum quam.</p>
+				</div>
+			</div>
+			<!-- Box 2 -->
+			<div class="col-md-4 no-padding">
+				<div class="service-box box-center">
+					<i class="icon-alarmclock2"></i>
+					<h3>24/7 Up Time</h3>
+					<p>Donec feugiat posuere massa, in dignissim diam facilisis at. Mauris vitae dapibus justo, nec dictum quam.</p>
+				</div>
+			</div>
+			<!-- Box 3 -->
+			<div class="col-md-4 no-padding">
+				<div class="service-box">
+					<i class="icon-chart-pie"></i>
+					<h3>Real Time Analytics</h3>
+					<p>Donec feugiat posuere massa, in dignissim diam facilisis at. Mauris vitae dapibus justo, nec dictum quam.</p>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Service Row 2 Begins -->
+		<div class="row animated" data-animation="fadeInUp" data-animation-delay="400">
+			<!-- Box 1 -->
+			<div class="col-md-4 no-padding">
+				<div class="service-box">
+					<i class="icon-clipboard7"></i>
+					<h3>Google Font Support</h3>
+					<p>Donec feugiat posuere massa, in dignissim diam facilisis at. Mauris vitae dapibus justo, nec dictum quam.</p>
+				</div>
+			</div>
+			<!-- Box 2 -->
+			<div class="col-md-4 no-padding">
+				<div class="service-box box-center">
+					<i class="icon-gift3"></i>
+					<h3>Unlimited Gifts</h3>
+					<p>Donec feugiat posuere massa, in dignissim diam facilisis at. Mauris vitae dapibus justo, nec dictum quam.</p>
+				</div>
+			</div>
+			<!-- Box 3 -->
+			<div class="col-md-4 no-padding">
+				<div class="service-box">
+					<i class="icon-toolbox"></i>
+					<h3>Branding</h3>
+					<p>Donec feugiat posuere massa, in dignissim diam facilisis at. Mauris vitae dapibus justo, nec dictum quam.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>		
 <!-- Services Section Ends -->	
 
 <!-- Fun Fact Section Begins -->	
