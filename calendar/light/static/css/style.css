@@ -34,7 +34,7 @@
 		- Social Icon
 		- Copyrights		
 =========================================================================== */
-
+/* ------------- Font           ---------------- */
 /* ------------- Ico Moon Icons ---------------- */
 @font-face {
 	font-family: 'icomoon';
@@ -80,6 +80,7 @@ a, a:hover, a:focus, .btn:focus{
     text-decoration: none;
 	outline: none;
 }
+
 .container {
 	width:100%;
 	max-width:1170px;
@@ -125,7 +126,7 @@ a, a:hover, a:focus, .btn:focus{
 }
 .title-desc h2{
 	color: #1f1f1f;
-    font-family: raleway,sans-serif;
+    font-family: Ubuntu,sans-serif;
     font-size: 48px;
     font-weight: 400;
     text-align: center;
@@ -135,8 +136,8 @@ a, a:hover, a:focus, .btn:focus{
 }
 .title-desc p{
 	color: #242424;
-    font-family: raleway,sans-serif;
-    font-size: 13px;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 15px;
     font-weight: 300;
     letter-spacing: 1px;
     text-align: center;
@@ -181,14 +182,33 @@ a, a:hover, a:focus, .btn:focus{
     border-top: 3px solid;
     height: 40px;
     left: 50%;
-    margin: -20px 0 0 -20px;
-    position: absolute;
+    margin: 0 0 0 -20px;
+    position: relative;
     text-align: center;
-    top: 65%;
     width: 40px;
+
+}
+
+#pageloader #loader_section {
+  width: 100%;
+  height: 300px;
+  margin-top: -70px;
+}
+#pageloader .logo {
+	position: relative;
+	transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); -webkit-transform: translateY(-50%);
+	margin-top: 25%;
+	color:#FFFFFF;
+	text-align: center;
+	text-transform: uppercase;
+  height: 200px;  
+  width: 100%;
+}
+#pageloader .logo img {
+  height: 100%;
 }
 #pageloader h1 {
-	position: absolute;
+	position: relative;
 	transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); -webkit-transform: translateY(-50%);
 	top: 50%;
 	color:#FFFFFF;
@@ -197,6 +217,7 @@ a, a:hover, a:focus, .btn:focus{
 	text-transform: uppercase;
 	font-size: 80px;
 	font-weight: 800;
+  height: 200px;
 }
 .colored-border {
     border-color: #FFB647;
@@ -440,11 +461,16 @@ a, a:hover, a:focus, .btn:focus{
 	max-width: 375px;
 }
 .app-section h3{
+  
+  font-family: 'Ubuntu',sans-serif;
     font-size: 45px;
     font-weight: 400;
 	margin:0 0 20px;
 }
 .app-section p{
+  
+  font-family: 'raleway',sans-serif;
+  color: #000;
     font-weight: 300;
     text-align: left;
 	margin:0 0 50px;
